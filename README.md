@@ -11,12 +11,15 @@ Built with a "Zero-Detect" code structure to evade static analysis.
 ### ⚡ CAPABILITIES
 
 * **Ghost Protocol:** Automated evasion engine that chains IP decoys, spoofing, packet fragmentation, and bad checksums to bypass IDS/firewalls.
+
 * **C2 Dashboard:** Non-linear terminal interface. Change your target, ports, or scan mode in any order without restarting the tool.
+
 * **Smart Profiles:** One-click automation for:
     * `VULN` - CVE Detection
     * `AUTH` - Weak Credential Auditing
     * `SAFE` - Non-intrusive Discovery
     * `BANNER` - Service Fingerprinting
+
 * **Hybrid Interface:** Includes both a raw **Terminal Dashboard** (for SSH sessions) and a **Graphical Interface** (for desktop use).
 
 ---
@@ -24,21 +27,28 @@ Built with a "Zero-Detect" code structure to evade static analysis.
 ### 📥 DEPLOYMENT
 
 **1. Prerequisites**
+
 You need **Python 3** and the **Nmap** engine installed on your system.
 
 * **Kali / Linux:** `sudo apt install nmap python3`
+
 * **macOS:** `brew install nmap python3`
+
 * **Windows:** [Download Nmap Installer](https://nmap.org/download.html)
 
 **2. Installation**
+
 Clone the repository and install the GUI dependency (FreeSimpleGUI).
 
 ```bash
+
 git clone https://github.com/Atsukiiii01/Kamui.git
+
 cd kamui
+
 pip install -r requirements.txt
 
-🚀 INITIALIZATION
+INITIALIZATION
 You have two ways to run KAMUI, depending on your environment.
 
 OPTION A: The C2 Dashboard (Terminal)
